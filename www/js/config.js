@@ -1,10 +1,11 @@
 var interstitiel= true;
-var seconde= 3000;//milli
+var seconde= 10000;//milli
 
 
 if(interstitiel==true){
+
 	setTimeout(function() {
-	document.location.href="#/app/playlists/1";
+		document.location.href="#/app/playlists";
 	},seconde);
 }
 else{
